@@ -1,8 +1,8 @@
 // import Validation from "./Components/FormValidation/Validation";
 // import logo from './logo.svg';
 // import './App.css';
-import HomePage from "./Components/WebPortal/Index";
 // import WebPortal from "./Components/WebPortal/WebPortal";
+import HomePage from "./Components/WebPortal/Index";
 
 const App = () => {
   return (
