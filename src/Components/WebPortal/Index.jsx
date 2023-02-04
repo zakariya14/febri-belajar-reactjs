@@ -9,7 +9,7 @@ import axios from "axios";
 // import qs from "querystring";
 // import NavDropdown from "react-bootstrap/NavDropdown";
 
-const url = "https://newsapi.org/v2/top-headlines?country=id&apiKey=e28f168fa9164607bfb2f0a0324d9900";
+const url = "https://newsapi.org/v2/top-headlines?" + "country=id&" + "apiKey=e28f168fa9164607bfb2f0a0324d9900";
 
 class HomePage extends Component {
   constructor(props) {
@@ -41,9 +41,9 @@ class HomePage extends Component {
     // console.log(e.target.value);
   }
   handleSubmit(e) {
-    const url2 = "https://newsapi.org/v2/everything?q=" + this.state.search + "&apiKey=e28f168fa9164607bfb2f0a0324d9900";
+    const url2 = "https://newsapi.org/v2/everything?" + "q=" + this.state.search + "&" + "apiKey=e28f168fa9164607bfb2f0a0324d9900";
     e.preventDefault();
-
+    console.log(url2);
     axios.get(url2).then((res) => {
       this.setState({
         article: res.data.articles,
