@@ -11,6 +11,7 @@ import axios from "axios";
 
 const url = "https://newsapi.org/v2/top-headlines?country=id&apiKey=e28f168fa9164607bfb2f0a0324d9900";
 
+
 class HomePage extends Component {
   constructor(props) {
     super(props);
