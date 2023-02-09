@@ -17,11 +17,11 @@ const About = () => {
           libero error, iste possimus explicabo alias nostrum id corporis necessitatibus? Vero quis error fugit blanditiis fugiat quaerat
           omnis!
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 justify-content-center">
           <img
             src="https://media.licdn.com/dms/image/C4E0BAQH9BX4jO_X-dg/company-logo_200_200/0/1635906347937?e=2147483647&v=beta&t=Jt6LXo_mGymt9rNwaF1v08Rp-nW2OD54adCxtqhqcp8"
             alt=""
-            style={{ width: 500, marginTop: "-100px" }}
+            style={{ width: 500, marginTop: "-100px", textAlign: "center" }}
           />
         </div>
       </div>

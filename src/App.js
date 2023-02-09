@@ -4,7 +4,8 @@
 // import WebPortal from "./Components/WebPortal/WebPortal";
 // import HomePage from "./Components/WebPortal/Index";
 // import IndexHooks from "./Components/Hooks/Index";
-import IndexRoute from "./Components/Routing/Index";
+// import IndexRoute from "./Components/Routing/Index";
+import IndexRedux from "./Components/Redux/Index";
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
       {/* <HomePage /> */}
       {/* <WebPortal /> */}
       {/* <IndexHooks /> */}
-      <IndexRoute />
+      {/* <IndexRoute /> */}
+      <IndexRedux />
     </div>
   );
 };
