@@ -61,10 +61,10 @@ const IndexHooks = () => {
       {/* card */}
       <div className="container-fluid">
         <div className="row" style={{ marginTop: "60px" }}>
-          {cards.map((c) => {
+          {cards.map((c, i) => {
             return (
-              <div className="col-md-3 my-2">
-                <Card key={c.author}>
+              <div key={c.i} className="col-md-3 my-2">
+                <Card>
                   <Card.Img variant="top" src={c.urlToImage} />
                   <Card.Body>
                     <Card.Title>{c.title}</Card.Title>
